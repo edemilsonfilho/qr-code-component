@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgba(213, 225, 239, 1);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 812px;
+}
+
+.hero {
+    width: 320px;
+    height: 499px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    flex-direction: column;
+    display: flex;
+}
