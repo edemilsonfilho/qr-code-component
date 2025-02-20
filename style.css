@@ -27,3 +27,25 @@ main {
     flex-direction: column;
     display: flex;
 }
+
+img {
+    padding: 16px 16px 0 16px;
+    height: 288px;
+    width: 288px;
+}
+
+.biografia {
+    font-family: "Outfit", serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(31, 49, 79, 1);
+    padding: 24px 32px 16px 32px;
+}
+
+.legend {
+    font-size: 15px;
+    text-align: center;
+    color: rgba(104, 119, 141, 1);
+    font-family: "Outfit", serif;
+    padding: 0 32px 40px 32px;
+}
