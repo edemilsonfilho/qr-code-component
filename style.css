@@ -49,3 +49,59 @@ img {
     font-family: "Outfit", serif;
     padding: 0 32px 40px 32px;
 }
+
+
+@media (min-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background: rgba(213, 225, 239, 1);
+    }
+
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1440px;
+        height: 960px;
+    }
+
+    .hero {
+        width: 320px;
+        height: 499px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        flex-direction: column;
+        display: flex;
+    }
+
+    img {
+        padding: 16px 16px 0 16px;
+        height: 160px;
+        width: 160px;
+    }
+
+    .biografia {
+        font-family: "Outfit", serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: rgba(31, 49, 79, 1);
+        padding: 24px 32px 16px 32px;
+    }
+
+    .legend {
+        font-size: 15px;
+        text-align: center;
+        color: rgba(104, 119, 141, 1);
+        font-family: "Outfit", serif;
+        padding: 0 32px 40px 32px;
+    }
+}
